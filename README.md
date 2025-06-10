@@ -22,36 +22,24 @@ A simple yet functional **Student Record Management System** built in **C**, des
 
 ## 📸 Menu Preview
 
------- Student Management System ------
+-------- Student Record Management system by Rudro --------
 
-1. Add Student
+1. Add Student.
+2. Display All Students
+4. Update by Student ID
+5. Delete by Student ID
+6. Save Records to File
+7. Load Records from File
+8. Save & Exit
+-----------------------------------------------------------
 
-
-2. View All Students
-
-
-3. Search by ID
-
-
-4. Update Student
-
-
-5. Delete Student
-
-
-6. Save to File
-
-
-7. Load from File
-
-
-8. Exit
+Enter your choice:
 
 
 
 ## 💾 Data Storage
 
-All student data is stored in a simple `.txt` file:
+All student data is stored in a simple `.txt` file:</br>
 ***uid|Name|Grade|Avarage Marks***</br>
 101|Rudro Bala|10|98.5 </br>
 102|Arpita Biswas|09|93.2</br>
@@ -69,21 +57,22 @@ Each line represents one student record using `|` as a delimiter.
 ### 1. Compile the code:
 ```bash
 gcc main.c -o student-manager
+```
 
-2. Run it:
-
+### 2. Run it:
+```bash
 ./student-manager
-
+```
 > Make sure students.txt is in the same directory if you want to load existing data.
 
 
 
-🤝 Contributing
+## 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first.
 
 
-👨‍💻 Created By
+## 👨‍💻 Created By
 
 Rudro Bala
 📍 Sylhet, Bangladesh
