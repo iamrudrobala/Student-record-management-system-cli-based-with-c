@@ -20,32 +20,45 @@ void saveAndExit();
 
 int main()
 {
-    int option;
-    menu();
-    scanf("%d", &option);
+    int option=1, max_student=100, total_students=0,running =0;
+    std students[total_students];
+    do
+    {
+        /* code */
+        
+        menu();
+        scanf("%d", &option);
     switch (option)
     {
-    case 1:
-        addStudent();
-        break;
-    case 2:
-        displayStudents();
-        break;
-    case 3:
-        searchStudent();
-    case 4:
-        updateStudent();
-    case 5:
-        deleteStudent();
-    case 6:
-        save();
-    case 7:
-        loadFile();
+    case 1:addStudent(students[total_students]);break;
+        
+    case 2: displayStudents();break;
+       
+        
+    case 3:searchStudent();break;
+        
+        
+    case 4:updateStudent();break;
+        
+        
+    case 5:deleteStudent(); break;
+        
+       
+    case 6:save();break;
+        
+        
+    case 7: loadFile();break;
+       
+        
     case 8:
-        saveAndExit();
+        printf("Exiting...");
+        break;
     default:
+        printf("Please enter a number between 1-8");
         break;
     }
+
+} while (option<8);
 
     return 0;
 }
