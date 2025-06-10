@@ -52,9 +52,9 @@ A simple yet functional **Student Record Management System** built in **C**, des
 ## 💾 Data Storage
 
 All student data is stored in a simple `.txt` file:
-***uid|Name|Grade|Avarage Marks
-101|Rudro Bala|10|98.5 
-102|Arpita Biswas|09|93.2
+***uid|Name|Grade|Avarage Marks***</br>
+101|Rudro Bala|10|98.5 </br>
+102|Arpita Biswas|09|93.2</br>
 
 Each line represents one student record using `|` as a delimiter.
 
