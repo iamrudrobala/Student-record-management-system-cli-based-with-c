@@ -22,17 +22,14 @@ A simple yet functional **Student Record Management System** built in **C**, des
 
 ## 📸 Menu Preview
 
--------- Student Record Management system by Rudro --------
-
-1. Add Student.
+------ Student Record Management ------
+1. Add Student
 2. Display All Students
-4. Update by Student ID
-5. Delete by Student ID
-6. Save Records to File
-7. Load Records from File
-8. Save & Exit
------------------------------------------------------------
-
+3. Search Student by ID
+4. Delete Student by ID
+5. Save to File
+6. Save & Exit
+---------------------------------------
 Enter your choice:
 
 
@@ -40,9 +37,9 @@ Enter your choice:
 ## 💾 Data Storage
 
 All student data is stored in a simple `.txt` file:</br>
-***uid|Name|Grade|Avarage Marks***</br>
-101|Rudro Bala|10|98.5 </br>
-102|Arpita Biswas|09|93.2</br>
+***uid|Name|Grade|Avarage Marks|GPA***</br>
+101|Rudro Bala|10|98.5|5.00 </br>
+102|Arpita Biswas|09|93.2|5.00</br>
 
 Each line represents one student record using `|` as a delimiter.
 
